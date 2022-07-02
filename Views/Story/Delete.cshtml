@@ -1,0 +1,81 @@
+@model Story
+
+@{
+    ViewData["Title"] = "Delete";
+}
+
+<h1>Delete</h1>
+
+<h3>Are you sure you want to delete this?</h3>
+<div>
+    <h4>Story</h4>
+    <hr />
+    <dl class="row">
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.Noun1)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.Noun1)
+        </dd>
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.Noun2)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.Noun2)
+        </dd>
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.Noun3)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.Noun3)
+        </dd>
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.Noun4)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.Noun4)
+        </dd>
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.Noun5)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.Noun5)
+        </dd>
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.Noun6)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.Noun6)
+        </dd>
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.Noun7)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.Noun7)
+        </dd>
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.Noun8)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.Noun8)
+        </dd>
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.Verb)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.Verb)
+        </dd>
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.Adjective)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.Adjective)
+        </dd>
+    </dl>
+    
+    <form asp-action="Delete">
+        <input type="hidden" asp-for="ID" />
+        <input type="submit" value="Delete" class="btn btn-danger" /> |
+        <a asp-action="Index">Back to List</a>
+    </form>
+</div>
