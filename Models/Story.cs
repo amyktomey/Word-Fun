@@ -18,7 +18,7 @@ public class Story
 //    [DisplayName("NOUN - a number ")]
 
     public string? Noun5 { get; set;}
-//    [DisplayName("Name - a number")]
+//    [DisplayName("Noun - a number")]
 
     public string? Noun6 { get; set;}
 //    [DisplayName("NOUN - a container")]

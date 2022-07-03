@@ -1,6 +1,27 @@
 /* Please see documentation at https://docs.microsoft.com/aspnet/core/client-side/bundling-and-minification
 for details on configuring this project to bundle and minify static web assets. */
 
+/* adding css from original project 
+text.center {
+  background-color: rgb(167, 231, 186);
+  font-family: Open-Dyslexic, Comic Sans, Century Gothic, Verdana;
+}
+ */ 
+h1[b-9ksc2etkyh], h2[b-9ksc2etkyh], p[b-9ksc2etkyh] {
+  text-align: center;
+  font-weight: bolder;
+}
+
+h1[b-9ksc2etkyh] {
+  color: rgb(0, 0, 0);
+}
+
+h2[b-9ksc2etkyh] {
+  color: rgb(9, 58, 23);
+  font-style: italic;
+}
+
+
 a.navbar-brand[b-9ksc2etkyh] {
   white-space: normal;
   text-align: center;

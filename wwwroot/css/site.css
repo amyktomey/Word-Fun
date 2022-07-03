@@ -15,4 +15,7 @@ html {
 
 body {
   margin-bottom: 60px;
+  /* adding css from original project */
+  background-color: rgb(167, 231, 186);
+  font-family: Open-Dyslexic, Comic Sans, Century Gothic, Verdana;
 }
