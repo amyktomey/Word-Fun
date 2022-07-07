@@ -1,12 +1,12 @@
 ﻿/* Please see documentation at https://docs.microsoft.com/aspnet/core/client-side/bundling-and-minification
 for details on configuring this project to bundle and minify static web assets. */
 
-/* adding css from original project 
+/* adding css from original project  */ 
 text.center {
   background-color: rgb(167, 231, 186);
   font-family: Open-Dyslexic, Comic Sans, Century Gothic, Verdana;
 }
- */ 
+
 h1, h2, p {
   text-align: center;
   font-weight: bolder;

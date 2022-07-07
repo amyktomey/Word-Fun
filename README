@@ -23,13 +23,16 @@ This program is designed with my grandson in mind, who has dyslexia.  Using a ma
 1. Clone
 2. Navigate to the 'SOURCE' folder
 3. Run 'dotnet run'
-5. Add requested parts of speech for a Mad Libs style story.
+4. Click 'Stories' to begin.
+5. Click 'Create new' to add requested parts of speech
+6. Click 'Create' to generate your story
+7. Click on 'Details' to see your story, or any other story in the database.
 
 #4 Features:
 
 - [X] Ability to request specific parts of speech
-- [ ] Ability to input words into story
-- [ ] Ability to print the story to screen
+- [X] Ability to input words into story
+- [X] Ability to print the story to screen
 - [X] Ability to delete or edit words
 
 
@@ -39,4 +42,4 @@ This program is designed with my grandson in mind, who has dyslexia.  Using a ma
 - [X] Create Models for Database
 - [X] Integrate EF 6 into Project
 - [X] Scaffold DB and Controllers
-- [ ] Customize the solution to show off my skills
+- [X] Customize the solution to show off my skills
