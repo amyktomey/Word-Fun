@@ -3,35 +3,35 @@ using System.ComponentModel.DataAnnotations;
 public class Story
 {
     [Key]
-    public int ID { get; set;}
+    public int ID { get; set; }
 
-    public string? Noun1 { get; set;}
-//    [DisplayName("NOUN - report card grade")]
+    [Display(Name = "NOUN: report card grade")]
+    public string? Noun1 { get; set; }
 
-    public string? Noun2 { get; set;}
-//    [DisplayName("NOUN - a person")]
+    [Display(Name = "NOUN: person")]
+    public string? Noun2 { get; set; }
 
-    public string? Noun3 { get; set;}
-//    [DisplayName("NOUN - a number")]
+    [Display(Name = "NOUN: number")]
+    public string? Noun3 { get; set; }
 
-    public string? Noun4 { get; set;}
-//    [DisplayName("NOUN - a number ")]
+    [Display(Name = "NOUN: number ")]
+    public string? Noun4 { get; set; }
 
-    public string? Noun5 { get; set;}
-//    [DisplayName("Noun - a number")]
+    [Display(Name = "NOUN: number")]
+    public string? Noun5 { get; set; }
 
-    public string? Noun6 { get; set;}
-//    [DisplayName("NOUN - a container")]
+    [Display(Name = "NOUN: container")]
+    public string? Noun6 { get; set; }
 
-    public string? Noun7 { get; set;}
-//    [DisplayName("NOUN - a place")]
+    [Display(Name = "NOUN: place")]
+    public string? Noun7 { get; set; }
 
-    public string? Noun8 { get; set;}
-//    [DisplayName("NOUN - measure of time")]
+    [Display(Name = "ADJECTIVE: a size")]
+    public string? Adjective { get; set; }
 
-    public string? Verb { get; set;}
-//    [DisplayName("VERB - a chore")]
-
-    public string? Adjective { get; set;}
-//    [DisplayName("ADJECTIVE - a size")]  
+    [Display(Name = "NOUN: measure of time")]
+    public string? Noun8 { get; set; }
+ 
+    [Display(Name = "VERB: a chore")]   
+    public string? Verb { get; set; }   
 }
