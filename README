@@ -4,7 +4,7 @@ This repository contains all the files for the C# Software Dev 2 final project.
 
 #1 Purpose 
 
-This program is designed with my grandson in mind, who has dyslexia.  Using a mad libs format, this will allow ayone to learn the basic parts of speech in an enertaining way. The user can also enter a list of spelling words, turning them imto word jumbles, allowing them to practice spelling words correctly. Special fonts will be used to enhance learning for those with dyslexia.
+This program is designed with my grandson in mind, who has dyslexia.  Using a mad libs format, this will allow ayone to learn the basic parts of speech in an enertaining way. Special fonts will be used to enhance learning for those with dyslexia.
 
 #2 Technologies:
 
@@ -24,7 +24,7 @@ This program is designed with my grandson in mind, who has dyslexia.  Using a ma
 2. Navigate to the 'SOURCE' folder
 3. Run 'dotnet run'
 4. Click 'Stories' to begin.
-5. Click 'Create new' to add requested parts of speech
+5. Click 'Create New' to add requested parts of speech
 6. Click 'Create' to generate your story
 7. Click on 'Details' to see your story, or any other story in the database.
 
@@ -36,7 +36,7 @@ This program is designed with my grandson in mind, who has dyslexia.  Using a ma
 - [X] Ability to delete or edit words
 
 
-## ToDo:
+# ToDo:
 
 - [X] Create a new C# .NET MVC App
 - [X] Create Models for Database
