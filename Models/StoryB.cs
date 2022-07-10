@@ -8,13 +8,13 @@ public class StoryB
     [Display(Name = "NOUN: Animal")]
     public string? Noun1 { get; set; }
 
-    [Display(Name = "NOUN: plural")]
+    [Display(Name = "NOUN: plural things")]
     public string? Noun2 { get; set; }
 
-    [Display(Name = "NOUN: plural")]
+    [Display(Name = "NOUN: plural things")]
     public string? Noun3 { get; set; }
 
-    [Display(Name = "NOUN: pluraL ")]
+    [Display(Name = "NOUN: plural things ")]
     public string? Noun4 { get; set; }
 
     [Display(Name = "NOUN: Animal")]
@@ -26,7 +26,7 @@ public class StoryB
     [Display(Name = "NOUN: place")]
     public string? Noun7 { get; set; }
 
-    [Display(Name = "ADJECTIVE")]
+    [Display(Name = "ADJECTIVE:")]
     public string? Adjective1 { get; set; }
  
     [Display(Name = "ADJECTIVE")]
