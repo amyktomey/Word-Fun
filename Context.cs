@@ -10,4 +10,7 @@ public class Context : DbContext
     }
    
    public DbSet<Story>? Story {get;set;}
+   
+   public DbSet<StoryB>? StoryB { get; set; }
+
 }

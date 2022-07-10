@@ -23,17 +23,16 @@ This program is designed with my grandson in mind, who has dyslexia.  Using a ma
 1. Clone
 2. Navigate to the 'SOURCE' folder
 3. Run 'dotnet run'
-4. Click 'Stories' to begin.
+4. Select a story to begin.
 5. Click 'Create New' to add requested parts of speech
 6. Click 'Create' to generate your story
-7. Click on 'Details' to see your story, or any other story in the database.
+7. Click on 'Show My Story' to see your story, or any other story in the database.
 
 #4 Features:
 
-- [X] Ability to request specific parts of speech
-- [X] Ability to input words into story
-- [X] Ability to print the story to screen
-- [X] Ability to delete or edit words
+- [X] Create a dictionary or list, populate it with several values, retrieve at least one value, and use it in your program
+- [X]  Create an additional class which inherits one or more properties from its parent
+- [X] Visualize data in a graph, chart, or other visual representation of data
 
 
 # ToDo:
@@ -43,3 +42,4 @@ This program is designed with my grandson in mind, who has dyslexia.  Using a ma
 - [X] Integrate EF 6 into Project
 - [X] Scaffold DB and Controllers
 - [X] Customize the solution to show off my skills
+- [X] Add a second story with more words

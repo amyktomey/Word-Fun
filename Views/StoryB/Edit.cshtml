@@ -1,0 +1,111 @@
+@model StoryB
+
+@{
+    ViewData["Title"] = "Edit";
+}
+
+<h1>Edit</h1>
+
+<h4>StoryB</h4>
+<hr />
+<div class="row">
+    <div class="col-md-4">
+        <form asp-action="Edit">
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+            <input type="hidden" asp-for="ID" />
+            <div class="form-group">
+                <label asp-for="Noun1" class="control-label"></label>
+                <input asp-for="Noun1" class="form-control" />
+                <span asp-validation-for="Noun1" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Noun2" class="control-label"></label>
+                <input asp-for="Noun2" class="form-control" />
+                <span asp-validation-for="Noun2" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Noun3" class="control-label"></label>
+                <input asp-for="Noun3" class="form-control" />
+                <span asp-validation-for="Noun3" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Noun4" class="control-label"></label>
+                <input asp-for="Noun4" class="form-control" />
+                <span asp-validation-for="Noun4" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Noun5" class="control-label"></label>
+                <input asp-for="Noun5" class="form-control" />
+                <span asp-validation-for="Noun5" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Noun6" class="control-label"></label>
+                <input asp-for="Noun6" class="form-control" />
+                <span asp-validation-for="Noun6" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Noun7" class="control-label"></label>
+                <input asp-for="Noun7" class="form-control" />
+                <span asp-validation-for="Noun7" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Adjective1" class="control-label"></label>
+                <input asp-for="Adjective1" class="form-control" />
+                <span asp-validation-for="Adjective1" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Adjective2" class="control-label"></label>
+                <input asp-for="Adjective2" class="form-control" />
+                <span asp-validation-for="Adjective2" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Adjective3" class="control-label"></label>
+                <input asp-for="Adjective3" class="form-control" />
+                <span asp-validation-for="Adjective3" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Verb1" class="control-label"></label>
+                <input asp-for="Verb1" class="form-control" />
+                <span asp-validation-for="Verb1" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Verb2" class="control-label"></label>
+                <input asp-for="Verb2" class="form-control" />
+                <span asp-validation-for="Verb2" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Verb3" class="control-label"></label>
+                <input asp-for="Verb3" class="form-control" />
+                <span asp-validation-for="Verb3" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Verb4" class="control-label"></label>
+                <input asp-for="Verb4" class="form-control" />
+                <span asp-validation-for="Verb4" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Verb5" class="control-label"></label>
+                <input asp-for="Verb5" class="form-control" />
+                <span asp-validation-for="Verb5" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Verb6" class="control-label"></label>
+                <input asp-for="Verb6" class="form-control" />
+                <span asp-validation-for="Verb6" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Interjection" class="control-label"></label>
+                <input asp-for="Interjection" class="form-control" />
+                <span asp-validation-for="Interjection" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <input type="submit" value="Save" class="btn btn-primary" />
+            </div>
+        </form>
+    </div>
+</div>
+
+<div>
+    <a asp-action="Index">Back to List</a>
+</div>
+

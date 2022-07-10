@@ -1,4 +1,4 @@
-@model IEnumerable<Story>
+@model IEnumerable<StoryB>
 
 @{
     ViewData["Title"] = "Index";
@@ -34,13 +34,34 @@
                 @Html.DisplayNameFor(model => model.Noun7)
             </th>
             <th>
-                @Html.DisplayNameFor(model => model.Noun8)
+                @Html.DisplayNameFor(model => model.Adjective1)
             </th>
             <th>
-                @Html.DisplayNameFor(model => model.Verb)
+                @Html.DisplayNameFor(model => model.Adjective2)
             </th>
             <th>
-                @Html.DisplayNameFor(model => model.Adjective)
+                @Html.DisplayNameFor(model => model.Adjective3)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Verb1)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Verb2)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Verb3)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Verb4)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Verb5)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Verb6)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Interjection)
             </th>
             <th></th>
         </tr>
@@ -70,13 +91,34 @@
                 @Html.DisplayFor(modelItem => item.Noun7)
             </td>
             <td>
-                @Html.DisplayFor(modelItem => item.Noun8)
+                @Html.DisplayFor(modelItem => item.Adjective1)
             </td>
             <td>
-                @Html.DisplayFor(modelItem => item.Verb)
+                @Html.DisplayFor(modelItem => item.Adjective2)
             </td>
             <td>
-                @Html.DisplayFor(modelItem => item.Adjective)
+                @Html.DisplayFor(modelItem => item.Adjective3)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Verb1)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Verb2)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Verb3)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Verb4)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Verb5)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Verb6)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Interjection)
             </td>
             <td>
                 <a asp-action="Edit" asp-route-id="@item.ID">Edit</a> |

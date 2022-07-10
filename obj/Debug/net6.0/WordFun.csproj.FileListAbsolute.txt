@@ -1,11 +1,3 @@
-C:\Users\m0mon\OneDrive\Desktop\WordFun\obj\Debug\net6.0\WordFun.csproj.AssemblyReference.cache
-C:\Users\m0mon\OneDrive\Desktop\WordFun\obj\Debug\net6.0\WordFun.GeneratedMSBuildEditorConfig.editorconfig
-C:\Users\m0mon\OneDrive\Desktop\WordFun\obj\Debug\net6.0\WordFun.AssemblyInfoInputs.cache
-C:\Users\m0mon\OneDrive\Desktop\WordFun\obj\Debug\net6.0\WordFun.AssemblyInfo.cs
-C:\Users\m0mon\OneDrive\Desktop\WordFun\obj\Debug\net6.0\WordFun.csproj.CoreCompileInputs.cache
-C:\Users\m0mon\OneDrive\Desktop\WordFun\obj\Debug\net6.0\WordFun.MvcApplicationPartsAssemblyInfo.cache
-C:\Users\m0mon\OneDrive\Desktop\WordFun\obj\Debug\net6.0\WordFun.RazorAssemblyInfo.cache
-C:\Users\m0mon\OneDrive\Desktop\WordFun\obj\Debug\net6.0\WordFun.RazorAssemblyInfo.cs
 C:\Users\m0mon\OneDrive\Desktop\WordFun\bin\Debug\net6.0\appsettings.Development.json
 C:\Users\m0mon\OneDrive\Desktop\WordFun\bin\Debug\net6.0\appsettings.json
 C:\Users\m0mon\OneDrive\Desktop\WordFun\bin\Debug\net6.0\WordFun.staticwebassets.runtime.json
@@ -271,6 +263,14 @@ C:\Users\m0mon\OneDrive\Desktop\WordFun\bin\Debug\net6.0\runtimes\win\lib\net6.0
 C:\Users\m0mon\OneDrive\Desktop\WordFun\bin\Debug\net6.0\runtimes\win\lib\netstandard2.0\System.Runtime.Caching.dll
 C:\Users\m0mon\OneDrive\Desktop\WordFun\bin\Debug\net6.0\runtimes\win\lib\net6.0\System.Security.Cryptography.ProtectedData.dll
 C:\Users\m0mon\OneDrive\Desktop\WordFun\bin\Debug\net6.0\runtimes\win\lib\net6.0\System.Windows.Extensions.dll
+C:\Users\m0mon\OneDrive\Desktop\WordFun\obj\Debug\net6.0\WordFun.csproj.AssemblyReference.cache
+C:\Users\m0mon\OneDrive\Desktop\WordFun\obj\Debug\net6.0\WordFun.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\m0mon\OneDrive\Desktop\WordFun\obj\Debug\net6.0\WordFun.AssemblyInfoInputs.cache
+C:\Users\m0mon\OneDrive\Desktop\WordFun\obj\Debug\net6.0\WordFun.AssemblyInfo.cs
+C:\Users\m0mon\OneDrive\Desktop\WordFun\obj\Debug\net6.0\WordFun.csproj.CoreCompileInputs.cache
+C:\Users\m0mon\OneDrive\Desktop\WordFun\obj\Debug\net6.0\WordFun.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\m0mon\OneDrive\Desktop\WordFun\obj\Debug\net6.0\WordFun.RazorAssemblyInfo.cache
+C:\Users\m0mon\OneDrive\Desktop\WordFun\obj\Debug\net6.0\WordFun.RazorAssemblyInfo.cs
 C:\Users\m0mon\OneDrive\Desktop\WordFun\obj\Debug\net6.0\staticwebassets.build.json
 C:\Users\m0mon\OneDrive\Desktop\WordFun\obj\Debug\net6.0\staticwebassets.development.json
 C:\Users\m0mon\OneDrive\Desktop\WordFun\obj\Debug\net6.0\scopedcss\Views\Shared\_Layout.cshtml.rz.scp.css
