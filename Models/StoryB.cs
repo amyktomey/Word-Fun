@@ -5,7 +5,7 @@ public class StoryB
     [Key]
     public int ID { get; set; }
 
-    [Display(Name = "NOUN: Animal")]
+    [Display(Name = "NOUN: An animal")]
     public string? Noun1 { get; set; }
 
     [Display(Name = "NOUN: plural things")]
@@ -17,7 +17,7 @@ public class StoryB
     [Display(Name = "NOUN: plural things ")]
     public string? Noun4 { get; set; }
 
-    [Display(Name = "NOUN: Animal")]
+    [Display(Name = "NOUN: An animal")]
     public string? Noun5 { get; set; }
 
     [Display(Name = "NOUN: place")]
