@@ -1,8 +1,7 @@
 /* _content/WordFun/Views/Shared/_Layout.cshtml.rz.scp.css */
-/* Please see documentation at https://docs.microsoft.com/aspnet/core/client-side/bundling-and-minification
-for details on configuring this project to bundle and minify static web assets. */
-
 /* adding css from original project  */ 
+html[b-9ksc2etkyh], body[b-9ksc2etkyh] { background-color: rgb(167, 231, 186) }
+
 text.center[b-9ksc2etkyh] {
   background-color: rgb(167, 231, 186);
   font-family: Open-Dyslexic, Comic Sans, Century Gothic, Verdana;

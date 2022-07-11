@@ -1,5 +1,8 @@
 html {
   font-size: 14px;
+  font-weight: bold;
+  font-family: Open-Dyslexic, Comic Sans, Century Gothic, Verdana;
+  background-color: rgb(167, 231, 186);
 }
 
 @media (min-width: 768px) {
@@ -15,7 +18,13 @@ html {
 
 body {
   margin-bottom: 60px;
-  /* adding css from original project */
   background-color: rgb(167, 231, 186);
-  font-family: Open-Dyslexic, Comic Sans, Century Gothic, Verdana;
+}
+button {
+  background-color:  rgb(10, 122, 19);
+  box-shadow:0 0 15px 5px rgba(0,0,0,0.06);
+  font-weight: bold; 
+  border-radius: 15px;
+  margin: 10px 25px 15px 60px;
+  padding: 5px;
 }
