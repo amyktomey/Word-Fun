@@ -30,9 +30,9 @@ This program is designed with my grandson in mind, who has dyslexia.  Using a ma
 
 #4 Features:
 
-- [ ] Create a dictionary or list, populate it with several values, retrieve at least one value, and use it in your program
-- [X]  Create an additional class which inherits one or more properties from its parent
-- [X] Visualize data in a graph, chart, or other visual representation of data
+- [X] Create an additional class which inherits one or more properties from its parent
+- [X] Use a LINQ query to retrieve information from a data structure (such as a list or array) or file
+- [X] Create a dictionary or list, populate it with several values, retrieve at least one value, and use it in your program
 
 
 # ToDo:
